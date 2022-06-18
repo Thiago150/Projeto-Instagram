@@ -113,3 +113,36 @@ body {
     padding: 1rem;
 }
 
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('./img/botao_do_google.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('./img/apple-button.png');
+}
+
+@media (max-width:1024px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width:650px) {
+    .instagram-wrapper {
+        width: 90%;
+    }
+
+    .instagram-phone {
+        display: none;
+    }
+
+    .instagram-continue {
+        width: 100%;
+    }
+}
